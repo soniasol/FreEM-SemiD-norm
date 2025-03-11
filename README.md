@@ -44,11 +44,11 @@ subcorpora = {
 
 Work in progress
 
-# Environment
+## Environment
 
 An `environment.yml` file allows you to create (and recreate) a Conda environment, ensuring that all dependencies are properly installed. Additionally, it helps prevent version conflicts and errors that may arise from automatic library updates.
 
-# Scripts
+## Scripts
 
 **Split**
 - `split_ss.py`
