@@ -65,3 +65,7 @@ An `environment.yml` file allows you to create (and recreate) a Conda environmen
   - `test_models.py`
 
     FIXME: `align` doesn't have an align function.
+
+## Outputs
+
+See [outputs](https://github.com/soniasol/Normalisation-16thCentury-French/tree/main/outputs) for first results.
