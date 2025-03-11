@@ -1,0 +1,20 @@
+name: norm-test
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9  # You can change this version if needed
+  - fairseq
+  - sentencepiece
+  - sacrebleu
+  - omegaconf
+  - nltk
+  - gdown
+  - gensim
+  - tensorboardX
+  - numpy
+  - pandas
+  - scipy
+  - pip
+  - pip:
+      - align  # Install align via pip
