@@ -1,11 +1,11 @@
-# Steps to train a normalisation model
+# Steps to train our normalisation model
 
 ## 1. Generate a Metadata Table
 - Create a CSV file (`table.csv`) listing all texts and their associated metadata.
 - Ensure that one column contains the filename of each text (e.g., `CRRPV16_Chansons_nouvelles.tsv`).
 
 ## 2. Build the Corpus
-- Collect and process all texts to create the corpus: 15 texts.
+- Collect and process all texts to create the corpus (15 texts).
   - if split ratio 90-10:
     - train+dev (90-10): 14 texts, 1.341 pages, 35.450 lines;
     - test (`CRRPV11_Moralite.tsv`): one text, 96 pages, 2.485 lines.
@@ -42,11 +42,11 @@ subcorpora = {
 
 ## 4. Training
 
-Work in progress
+Train multiple models with our scripts.
 
 ## Environment
 
-An `environment.yml` file allows you to create (and recreate) a Conda environment, ensuring that all dependencies are properly installed. Additionally, it helps prevent version conflicts and errors that may arise from automatic library updates.
+Our `environment.yml` file allows to create (and recreate) a Conda environment, ensuring that all dependencies are properly installed. Additionally, it helps prevent version conflicts and errors that may arise from automatic library updates.
 
 ## Scripts
 
@@ -64,8 +64,6 @@ An `environment.yml` file allows you to create (and recreate) a Conda environmen
 - `submission_script_test_model.sh`
   - `test_models.py`
 
-    FIXME: `align` doesn't have an align function.
-
 ## Outputs
 
-See [outputs](https://github.com/soniasol/Normalisation-16thCentury-French/tree/main/outputs) for first results.
+See [outputs](https://github.com/soniasol/Normalisation-16thCentury-French/tree/main/outputs) for our results.
