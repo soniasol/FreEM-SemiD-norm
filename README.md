@@ -42,7 +42,7 @@ subcorpora = {
 
 ## 4. Training
 
-Train multiple models with our scripts.
+Train multiple models with the scripts listed below.
 
 Our `environment.yml` file allows to create (and recreate) a Conda environment, ensuring that all dependencies are properly installed. Additionally, it helps prevent version conflicts and errors that may arise from automatic library updates.
 
