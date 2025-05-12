@@ -1,4 +1,4 @@
-# Normalisation-16thCentury-French
+# Steps to train a normalisation model
 
 ## 1. Generate a Metadata Table
 - Create a CSV file (`table.csv`) listing all texts and their associated metadata.
