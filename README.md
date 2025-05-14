@@ -21,7 +21,7 @@ For questions or contributions, please contact Sonia Solfrini at Sonia.Solfrini@
 
 ## Dataset
 
-Our corpus is available in the [`dataset`](https://github.com/soniasol/Normalisation-16thCentury-French/tree/main/dataset) folder. It is organized as follows:
+Our corpus is available in the [`dataset`](https://github.com/soniasol/FreEM-SemiD-norm/tree/main/dataset) folder. It is organized as follows:
 
 - **`corpus-to-process/`**  
   Contains each text in plain `.txt` format (a file with the original text and a file with the normalised version), along with a script to convert and merge the `.txt` files into `.tsv` format.
@@ -38,12 +38,12 @@ Our corpus is available in the [`dataset`](https://github.com/soniasol/Normalisa
   - `dev.src` / `dev.trg`  
   - `test.src` / `test.trg`  
 
-A detailed overview of the corpus content, including text titles and metadata, is available in [`table.csv`](https://github.com/soniasol/Normalisation-16thCentury-French/tree/main/table.csv).
+A detailed overview of the corpus content, including text titles and metadata, is available in [`table.csv`](https://github.com/soniasol/FreEM-SemiD-norm/tree/main/table.csv).
 
 ## Scripts
 
-See the folder [scripts](https://github.com/soniasol/Normalisation-16thCentury-French/tree/main/scripts) for our scripts and a README.md with the steps we followed to train and test our model.
+See the folder [scripts](https://github.com/soniasol/FreEM-SemiD-norm/tree/main/scripts) for our scripts and a README.md with the steps we followed to train and test our model.
 
 ## Results
 
-See the folder [results](https://github.com/soniasol/Normalisation-16thCentury-French/tree/main/results) for our results.
+See the folder [results](https://github.com/soniasol/FreEM-SemiD-norm/tree/main/results) for our results.
