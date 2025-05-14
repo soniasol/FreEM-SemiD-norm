@@ -4,7 +4,7 @@
 
 - a **normalisation model** (or *normalizer*),
   and 
-- the **corpus** used to develop it — a dataset of Middle French texts normalised according to semi-diplomatic guidelines.
+- a **normalised corpus** used to develop it — a dataset of Middle French texts normalised according to semi-diplomatic guidelines.
 
 
 ## How to cite our work
