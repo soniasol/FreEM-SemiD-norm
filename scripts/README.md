@@ -11,8 +11,8 @@
     - test (`CRRPV11_Moralite.tsv`): one text, 96 pages, 2.485 lines.
 - Each processed text is stored in a TSV file (`.tsv`).
 - Each TSV file contains two columns:
-  - One column for the original lines of text.
-  - One column for the normalized lines.
+  - one column for the original lines of text;
+  - one column for the normalised lines.
 
 ## 3. Create the Data Split
 - Use the scripts to divide the corpus into appropriate training, validation, and test sets.
@@ -64,7 +64,3 @@ Our `environment.yml` file allows to create (and recreate) a Conda environment, 
 **Tests**
 - `submission_script_test_model.sh`
   - `test_models.py`
-
-## Outputs
-
-See [outputs](https://github.com/soniasol/Normalisation-16thCentury-French/tree/main/outputs) for the results.
