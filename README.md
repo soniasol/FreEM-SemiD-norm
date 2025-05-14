@@ -24,16 +24,18 @@ For questions or contributions, please contact Sonia Solfrini at Sonia.Solfrini@
 Our corpus is available in the [`dataset`](https://github.com/soniasol/FreEM-SemiD-norm/tree/main/dataset) folder. It is organized as follows:
 
 - **`corpus-to-process/`**  
-  Contains each text in plain `.txt` format (a file with the original text and a file with the normalised version), along with a script to convert and merge the `.txt` files into `.tsv` format.
+  Contains each text in plain `.txt` format: one file with the original text and one file with the normalised version. A script is included to convert and merge these files into `.tsv` format.
 
 - **`corpus/`**  
-  Contains each text in `.tsv` format. Each TSV file contains two columns: One column for the original lines of text and one column for the normalised lines.
+  Contains each text in `.tsv` format. Each file includes two columns:  
+  - the original lines of text  
+  - the corresponding normalised lines
 
 - **`split/`**  
-  Contains the dataset split into training, validation, and test sets. See the scripts section below for details on how the split was generated.
+  Contains the dataset divided into training, validation, and test sets. See the `scripts` section below for details on how the split was generated.
 
 - **`data/`**  
-  Contains the split corpus in source–target file format:  
+  Contains the split corpus in source–target format: 
   - `train.src` / `train.trg`  
   - `dev.src` / `dev.trg`  
   - `test.src` / `test.trg`  
@@ -42,8 +44,8 @@ A detailed overview of the corpus content, including text titles and metadata, i
 
 ## Scripts
 
-See the folder [scripts](https://github.com/soniasol/FreEM-SemiD-norm/tree/main/scripts) for our scripts and a README.md with the steps we followed to train and test our model.
+See the [scripts](https://github.com/soniasol/FreEM-SemiD-norm/tree/main/scripts) folder for all scripts used in this project, along with a `README.md` that outlines the steps followed to train and evaluate the model.
 
 ## Results
 
-See the folder [results](https://github.com/soniasol/FreEM-SemiD-norm/tree/main/results) for our results.
+Final evaluation results are available in the [results](https://github.com/soniasol/FreEM-SemiD-norm/tree/main/results) folder.
