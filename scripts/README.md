@@ -1,4 +1,4 @@
-# Steps to train our normalisation model
+# Steps to train the normalisation model
 
 ## 1. Generate a Metadata Table
 - Create a CSV file (`table.csv`) listing all texts and their associated metadata.
@@ -57,6 +57,9 @@ Our `environment.yml` file allows to create (and recreate) a Conda environment, 
   - `prep_data.py`
   - `preprocess_fairseq.sh`
   - `train_models_fairseq.sh`
+    - `train_models_fairseq_M.sh`
+    - `train_models_fairseq_S.sh`
+    - `train_models_fairseq_XS.sh`
 
 **Test models**
 - `submission_script_test_model.sh`
@@ -64,4 +67,4 @@ Our `environment.yml` file allows to create (and recreate) a Conda environment, 
 
 ## Outputs
 
-See [outputs](https://github.com/soniasol/Normalisation-16thCentury-French/tree/main/outputs) for results.
+See [outputs](https://github.com/soniasol/Normalisation-16thCentury-French/tree/main/outputs) for the results.
