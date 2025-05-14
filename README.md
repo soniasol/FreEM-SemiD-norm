@@ -1,12 +1,12 @@
-# FreEM-SemiD-norm (French Early Modern Semi-Diplomatic Normalizer)
+# FreEM-SemiD-norm 
 
-
+FreEM-SemiD-norm (French Early Modern Semi-Diplomatic Normalizer) is a normalizer trained on a Middle French corpus.
 
 ## How to cite our work
 
-Our model FreEM-SemiD-norm:
-Our dataset:
-Our paper: 
+- Our model FreEM-SemiD-norm:
+- Our dataset:
+- Our paper: 
 
 ## Scripts
 
