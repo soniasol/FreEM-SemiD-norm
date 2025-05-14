@@ -48,4 +48,4 @@ See the [scripts](https://github.com/soniasol/FreEM-SemiD-norm/tree/main/scripts
 
 ## Results
 
-Final evaluation results are available in the [results](https://github.com/soniasol/FreEM-SemiD-norm/tree/main/results) folder.
+Our results are available in the [results](https://github.com/soniasol/FreEM-SemiD-norm/tree/main/results) folder.
