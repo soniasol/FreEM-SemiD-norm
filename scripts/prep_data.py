@@ -106,6 +106,12 @@ DIRECTORY = "/home/users/s/solfrini/git/normalisation_training"
 # define function to run as default when the script is executed
 if __name__ == "__main__":
     
+    # 500
+    sentencepiece.SentencePieceTrainer.train(input=os.path.join(DIRECTORY,"data/vocabulary.src-trg"),
+                                model_prefix=os.path.join(DIRECTORY,"data/bpe_joint_500"),
+                                vocab_size=500)
+    
+    
     # 1000
     sentencepiece.SentencePieceTrainer.train(input=os.path.join(DIRECTORY,"data/vocabulary.src-trg"),
                                 model_prefix=os.path.join(DIRECTORY,"data/bpe_joint_1000"),
@@ -126,6 +132,7 @@ if __name__ == "__main__":
                                 model_prefix=os.path.join(DIRECTORY,"data/bpe_joint_4000"),
                                 vocab_size=4000)
     
+    create_vocab(n_words = 500)
     create_vocab(n_words = 1000)
     create_vocab(n_words = 2000)
     create_vocab(n_words = 3000)

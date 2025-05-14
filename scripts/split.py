@@ -1,7 +1,7 @@
 #!/usr/sfw/bin/python
 # -*- coding: utf-8 -*-
 
-# Run the script with: python scripts/split_ss.py
+# Run the script with: python scripts/split.py
 
 # Import necessary modules for file handling and system operations
 import csv, glob, os, re, sys
