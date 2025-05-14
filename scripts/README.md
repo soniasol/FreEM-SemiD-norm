@@ -40,7 +40,7 @@ subcorpora = {
 }
 ```
 
-## 4. Training
+## 4. Train and Evaluate the Models
 
 Train multiple models with the scripts listed below.
 
