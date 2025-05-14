@@ -3,6 +3,7 @@
 **FreEM-SemiD-norm** (French Early Modern Semi-Diplomatic Normalisation) refers both to:
 
 - a **normalisation model** (or *normalizer*),
+  
   and 
 - a **normalised corpus** used to develop it — a dataset of Middle French texts normalised according to semi-diplomatic guidelines.
 
