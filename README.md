@@ -8,8 +8,8 @@
 ## How to cite our work
 
 - Our corpus:
-- Our model:
-- Our paper:
+- Our model: 
+- Our paper: [coming soon].
 
 ## License
 
@@ -22,6 +22,8 @@ For questions or contributions, please contact Sonia Solfrini at Sonia.Solfrini@
 ## Dataset
 
 See the folder [dataset](https://github.com/soniasol/Normalisation-16thCentury-French/tree/main/dataset) for our data.
+
+A detailed list of the content is available here : [table.csv](https://github.com/soniasol/Normalisation-16thCentury-French/tree/main/table.csv)
 
 ## Scripts
 
