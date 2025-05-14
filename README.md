@@ -17,7 +17,7 @@ This work is licensed under a Creative Commons Attribution 4.0 International Lic
 
 ## Contact
 
-For questions or contributions, please contact Sonia Solfrini at Sonia.Solfrini@unige.ch or open an issue on this repository.
+For questions or contributions, please contact Sonia Solfrini at Sonia.Solfrini@unige.ch.
 
 ## Dataset
 
