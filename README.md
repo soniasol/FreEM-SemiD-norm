@@ -21,16 +21,24 @@ For questions or contributions, please contact Sonia Solfrini at Sonia.Solfrini@
 
 ## Dataset
 
-See the folder [dataset](https://github.com/soniasol/Normalisation-16thCentury-French/tree/main/dataset) for our corpus: 
-- the folder named "corpus-to-process" contains each text of our corpus in txt format and a script to combine txt to tsv.
-- the folder named "corpus" contains each text of our corpus in tsv format.
-- the folder named "split" contains the split of the corpus, divided into training, validation, and test sets (see scripts below for more details).
-- the folder named "data" contains the split in the following format :
-  - train.src and train.trg
-  - dev.src and dev.trg
-  - test.src and test.trg
+Our corpus is available in the [`dataset`](https://github.com/soniasol/Normalisation-16thCentury-French/tree/main/dataset) folder. It is organized as follows:
 
-A detailed description of our corpus is available here : [table.csv](https://github.com/soniasol/Normalisation-16thCentury-French/tree/main/table.csv)
+- **`corpus-to-process/`**  
+  Contains each text in plain `.txt` format (a file with the original text and a file with the normalised version), along with a script to convert and merge the `.txt` files into `.tsv` format.
+
+- **`corpus/`**  
+  Contains each text in `.tsv` format. Each TSV file contains two columns: One column for the original lines of text and one column for the normalised lines.
+
+- **`split/`**  
+  Contains the dataset split into training, validation, and test sets. See the scripts section below for details on how the split was generated.
+
+- **`data/`**  
+  Contains the split corpus in source–target file format:  
+  - `train.src` / `train.trg`  
+  - `dev.src` / `dev.trg`  
+  - `test.src` / `test.trg`  
+
+A detailed overview of the corpus content, including text titles and metadata, is available in [`table.csv`](https://github.com/soniasol/Normalisation-16thCentury-French/tree/main/table.csv).
 
 ## Scripts
 
