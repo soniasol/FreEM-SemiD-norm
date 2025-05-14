@@ -1,25 +1,25 @@
 # Steps to train the normalisation model
 
 ## 1. Generate a Metadata Table
-- Create a CSV file (`table.csv`) listing all texts and their associated metadata.
-- Ensure that one column contains the filename of each text (e.g., `CRRPV16_Chansons_nouvelles.tsv`).
+Create a metadata table in CSV format (`table.csv`) that lists all texts and their associated metadata.  
+Make sure one of the columns contains the filename of each text (e.g., `CRRPV16_Chansons_nouvelles.tsv`).
 
 ## 2. Build the Corpus
-- Collect and process all texts to create the corpus (15 texts).
-  - if split ratio 90-10:
-    - train+dev (90-10): 14 texts, 1.341 pages, 35.450 lines;
-    - test (`CRRPV11_Moralite.tsv`): one text, 96 pages, 2.485 lines.
-- Each processed text is stored in a TSV file (`.tsv`).
-- Each TSV file contains two columns:
-  - one column for the original lines of text;
-  - one column for the normalised lines.
+Collect and process the texts to build the corpus. Each processed text is stored in a `.tsv` file containing two columns:
+- the original lines of text
+- the corresponding normalised lines
+
+If using a **90-10 split ratio**, the data is divided as follows:
+- **Training + Validation**: 14 texts (1,341 pages / 35,450 lines)
+- **Test**: 1 text (`CRRPV11_Moralite.tsv`) — 96 pages / 2,485 lines
 
 ## 3. Create the Data Split
-- Use the scripts to divide the corpus into appropriate training, validation, and test sets.
-- In "data" you'll find the final split in the following format :
-  - train.src and train.trg
-  - dev.src and dev.trg
-  - test.src and test.trg
+Use the provided scripts to divide the corpus into training, validation, and test sets.
+
+The final split can be found in the `data/` directory in the following format:
+- `train.src` / `train.trg`
+- `dev.src` / `dev.trg`
+- `test.src` / `test.trg`
 
 **Split Ratio 90-10**
 
