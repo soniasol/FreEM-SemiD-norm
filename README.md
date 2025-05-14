@@ -64,4 +64,4 @@ Our `environment.yml` file allows to create (and recreate) a Conda environment, 
 
 ## Outputs
 
-See [outputs](https://github.com/soniasol/Normalisation-16thCentury-French/tree/main/outputs) for our results.
+See [outputs](https://github.com/soniasol/Normalisation-16thCentury-French/tree/main/outputs) for results.
