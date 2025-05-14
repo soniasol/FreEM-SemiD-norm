@@ -61,7 +61,7 @@ Our `environment.yml` file allows to create (and recreate) a Conda environment, 
     - `train_models_fairseq_S.sh`
     - `train_models_fairseq_XS.sh`
 
-**Test models**
+**Tests**
 - `submission_script_test_model.sh`
   - `test_models.py`
 
