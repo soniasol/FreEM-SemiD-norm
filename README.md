@@ -17,12 +17,12 @@
 
 ## Contact
 
-For questions or contributions, please contact [Sonia Solfrini] at [Sonia.Solfrini@unige.ch] or open an issue on this repository.
+For questions or contributions, please contact Sonia Solfrini at Sonia.Solfrini@unige.ch or open an issue on this repository.
 
 ## Scripts
 
-See [scripts](https://github.com/soniasol/Normalisation-16thCentury-French/tree/main/scripts) for our scripts and a README.md with the steps we followed to train our model.
+See the folder [scripts](https://github.com/soniasol/Normalisation-16thCentury-French/tree/main/scripts) for our scripts and a README.md with the steps we followed to train and test our model.
 
 ## Outputs
 
-See [outputs](https://github.com/soniasol/Normalisation-16thCentury-French/tree/main/outputs) for our results.
+See the folder [outputs](https://github.com/soniasol/Normalisation-16thCentury-French/tree/main/outputs) for our results.
