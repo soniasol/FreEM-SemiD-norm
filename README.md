@@ -10,7 +10,7 @@ FreEM-SemiD-norm (French Early Modern Semi-Diplomatic Normalizer) is a normalize
 
 ## Scripts
 
-See [scripts](https://github.com/soniasol/Normalisation-16thCentury-French/tree/main/scripts) for the scripts and a README.md with steps followed to normalize our model.
+See [scripts](https://github.com/soniasol/Normalisation-16thCentury-French/tree/main/scripts) for the scripts and a README.md with the steps followed to normalize our model.
 
 ## Outputs
 
