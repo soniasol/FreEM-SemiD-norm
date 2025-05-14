@@ -1,5 +1,0 @@
-3000 words
-BLEU: BLEU = 28.65 60.6/35.1/22.6/14.0 (BP = 1.000 ratio = 1.046 hyp_len = 15182 ref_len = 14517)
-TER: TER = 51.52
-CHRF: chrF2 = 50.49
-Accuracy: 0
