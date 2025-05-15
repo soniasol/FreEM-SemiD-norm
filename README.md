@@ -38,7 +38,9 @@ Our corpus is available in the [`dataset`](https://github.com/soniasol/FreEM-Sem
   Contains the split corpus in source–target format: 
   - `train.src` / `train.trg`  
   - `dev.src` / `dev.trg`  
-  - `test.src` / `test.trg`  
+  - `test.src` / `test.trg`
+  It also includes additional resources such as subword-tokenized files, BPE vocabularies/models, intermediate outputs, and evaluation results.  
+  A `README.md` in this folder explains further the structure and usage of these files, which support model training and evaluation with Fairseq.
 
 A detailed overview of the corpus content, including text titles and metadata, is available in [`table.csv`](https://github.com/soniasol/FreEM-SemiD-norm/tree/main/table.csv).
 
