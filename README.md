@@ -39,15 +39,16 @@ Our corpus is available in the [`dataset`](https://github.com/soniasol/FreEM-Sem
   - `train.src` / `train.trg`  
   - `dev.src` / `dev.trg`  
   - `test.src` / `test.trg`
-  
-  It also includes additional resources such as subword-tokenized files, BPE vocabularies/models, intermediate outputs, and evaluation results.  
-  A `README.md` in this folder explains further the structure and usage of these files, which support model training and evaluation with Fairseq.
 
 A detailed overview of the corpus content, including text titles and metadata, is available in [`table.csv`](https://github.com/soniasol/FreEM-SemiD-norm/tree/main/table.csv).
 
 ## Scripts
 
 See the [scripts](https://github.com/soniasol/FreEM-SemiD-norm/tree/main/scripts) folder for all scripts used in our experiments, along with a `README.md` that outlines the steps followed to train and evaluate the model.
+
+## Other files
+
+The [other-files](https://github.com/soniasol/FreEM-SemiD-norm/tree/main/other-files) folder includes additional resources such as subword-tokenized files, BPE vocabularies/models, intermediate outputs, and evaluation results. A `README.md` in this folder explains further the structure and usage of these files, which support model training and evaluation with Fairseq.
 
 ## Results
 
