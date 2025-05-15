@@ -46,7 +46,7 @@ A detailed overview of the corpus content, including text titles and metadata, i
 
 ## Scripts
 
-See the [scripts](https://github.com/soniasol/FreEM-SemiD-norm/tree/main/scripts) folder for all scripts used in this project, along with a `README.md` that outlines the steps followed to train and evaluate the model.
+See the [scripts](https://github.com/soniasol/FreEM-SemiD-norm/tree/main/scripts) folder for all scripts used in our experiments, along with a `README.md` that outlines the steps followed to train and evaluate the model.
 
 ## Results
 
