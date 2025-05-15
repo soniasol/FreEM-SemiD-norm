@@ -60,6 +60,6 @@ This helps avoid version conflicts and errors that may arise from automatic libr
     - `train_models_fairseq_S.sh`
     - `train_models_fairseq_XS.sh`
 
-**Tests**
+**Testing**
 - `submission_script_test_model.sh`
   - `test_models.py`
