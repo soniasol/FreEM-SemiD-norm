@@ -49,3 +49,16 @@ See the [scripts](https://github.com/soniasol/FreEM-SemiD-norm/tree/main/scripts
 ## Results
 
 Our results are available in the [results](https://github.com/soniasol/FreEM-SemiD-norm/tree/main/results) folder.
+
+We experimented with multiple LSTM-based model configurations (XS, S, M) and vocabulary sizes. The best results were obtained using the **"S" configuration** (2 encoder/decoder layers, 256 embedding dim, 512 hidden size) with a vocabulary of 1,000 subword units:
+
+| Configuration | BLEU  | TER   | ChrF   |
+|---------------|-------|-------|--------|
+| **XS**        | 86.64 | 7.69  | 94.93  |
+| **S**         | **87.08** | **7.35** | **95.02** |
+| **M**         | 86.18 | 7.76  | 94.70  |
+
+
+## Model
+
+The best-performing trained model is available in the [Releases] section of this repository.
