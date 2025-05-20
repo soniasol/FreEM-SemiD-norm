@@ -65,4 +65,4 @@ We experimented with multiple LSTM-based model configurations (XS, S, M) and voc
 
 ## Model
 
-The best-performing trained model is available in the [Releases] section of this repository.
+The best-performing trained model is available in the [Releases](https://github.com/soniasol/FreEM-SemiD-norm/releases/tag/v1.0.0) section of this repository.
