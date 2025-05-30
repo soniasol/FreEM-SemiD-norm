@@ -7,8 +7,7 @@
 
 ## Funder
 
-This research was conducted as part of the **SETAF project**, funded by the [Swiss National Science Foundation (SNSF)](https://www.snf.ch/en).  
-**Project number:** [205056](https://data.snf.ch/grants/grant/205056)
+This research was conducted as part of the SETAF project, funded by the [Swiss National Science Foundation (SNSF)](https://www.snf.ch/en). Project number: [205056](https://data.snf.ch/grants/grant/205056)
 
 - 🔗 [SETAF project GitHub](https://github.com/SETAFDH)  
 - 🌐 [SETAF project website](https://www.unige.ch/setaf)
