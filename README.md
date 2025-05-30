@@ -7,17 +7,35 @@
 
 ## How to cite our work
 
-- Our model: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15551750.svg)](https://doi.org/10.5281/zenodo.15551750)
 - Our paper: [coming soon]
+  
+- Our model:
+
+```bibtex
+@misc{FreEM-SemiD-norm_model_2025,
+  author       = {Solfrini, Sonia and
+                  Gabay, Simon},
+  title        = {{FreEM SemiD norm model}},
+  month        = may,
+  year         = 2025,
+  publisher    = {Zenodo},
+  note         = {{v.} 1.0.0},
+  doi          = {10.5281/zenodo.15551750},
+  url          = {https://doi.org/10.5281/zenodo.15551750},
+}
+```
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15551750.svg)](https://doi.org/10.5281/zenodo.15551750)
+
 - Our corpus:
 
 ```bibtex
 @misc{FreEM-SemiD-norm_dataset_2025,
   author       = {Sonia Solfrini and collaborators},
-  title        = {FreEM SemiD norm corpus,
+  title        = {{FreEM SemiD norm corpus}},
+  month        = may,
   year         = 2025,
   howpublished = {\url{https://github.com/soniasol/FreEM-SemiD-norm}},
-  note         = {Accessed May 30, 2025}
+  note         = {Accessed Month Day, Year}
 }
 ```
 
