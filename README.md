@@ -1,7 +1,5 @@
 # FreEM SemiD norm 
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15551750.svg)](https://doi.org/10.5281/zenodo.15551750)
-
 **FreEM SemiD norm** (French Early Modern Semi-Diplomatic Normalisation) refers both to:
 
 - a **normalisation model** (or *normalizer*), and 
@@ -9,9 +7,19 @@
 
 ## How to cite our work
 
-- Our corpus: [coming soon]
-- Our model: [coming soon]
+- Our model: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15551750.svg)](https://doi.org/10.5281/zenodo.15551750)
 - Our paper: [coming soon]
+- Our corpus: [coming soon]
+
+```bibtex
+@misc{FreEM-SemiD-norm_2025_dataset,
+  author       = {Sonia Solfrini and collaborators},
+  title        = {FreEM SemiD norm corpus,
+  year         = 2025,
+  howpublished = {\url{https://github.com/soniasol/FreEM-SemiD-norm}},
+  note         = {Accessed May 30, 2025}
+}
+
 
 ## License
 
@@ -67,4 +75,4 @@ We experimented with multiple LSTM-based model configurations (XS, S, M) and voc
 
 ## Model
 
-The best-performing trained model is available in the [Releases](https://github.com/soniasol/FreEM-SemiD-norm/releases/tag/v1.0.0) section of this repository.
+The best-performing trained model is available in the [Releases](https://github.com/soniasol/FreEM-SemiD-norm/releases/tag/v1.0.0) section of this repository and on Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15551750.svg)](https://doi.org/10.5281/zenodo.15551750).
