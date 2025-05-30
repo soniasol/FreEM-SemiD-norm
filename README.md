@@ -9,10 +9,10 @@
 
 - Our model: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15551750.svg)](https://doi.org/10.5281/zenodo.15551750)
 - Our paper: [coming soon]
-- Our corpus: [coming soon]
+- Our corpus:
 
 ```bibtex
-@misc{FreEM-SemiD-norm_2025_dataset,
+@misc{FreEM-SemiD-norm_dataset_2025,
   author       = {Sonia Solfrini and collaborators},
   title        = {FreEM SemiD norm corpus,
   year         = 2025,
