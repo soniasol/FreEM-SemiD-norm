@@ -1,6 +1,7 @@
 cff-version: 1.2.0
-message: "If you use this model or dataset, please cite this repository as below."
-title: "FreEM SemiD norm (French Early Modern Semi-Diplomatic Normalisation)"
+message: "If you use this dataset, please cite this repository as below."
+title: "FreEM SemiD norm (French Early Modern Semi-Diplomatic Normalisation) corpus"
+type: dataset
 authors:
   - family-names: Solfrini
     given-names: Sonia
@@ -10,16 +11,29 @@ authors:
     given-names: Simon
     affiliation: University of Geneva
     orcid: 0000-0001-9094-4475
-version: "1.0"
-date-released: 2025-05-30
-doi: 10.5281/zenodo.15551750
-license: MIT
+  - family-names: Beaulnes
+    given-names: Pierre-Olivier
+    affiliation: University of Geneva
+    orcid: 0009-0009-2475-6017
+  - family-names: Marques Oliveira
+    given-names: Aurélia
+    affiliation: University of Geneva
+    orcid: 0009-0009-9678-9811
+  - family-names: Dejouy
+    given-names: Mylène
+    affiliation: University of Geneva
+    orcid: 0009-0000-9696-9868
+  - family-names: Solfaroli Camillocci
+    given-names: Daniela
+    affiliation: University of Geneva
+    orcid: 0000-0002-2601-668X
 repository-code: https://github.com/soniasol/FreEM-SemiD-norm
-url: https://doi.org/10.5281/zenodo.15551750
-type: software
+url: https://github.com/soniasol/FreEM-SemiD-norm
 keywords:
   - Middle French
   - Automatic normalisation
   - Digital humanities
   - Early Modern French
-  
+license: CC-BY-4.0
+version: "1.0"
+date-released: 2025-05-30
