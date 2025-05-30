@@ -30,7 +30,10 @@
 
 ```bibtex
 @misc{FreEM-SemiD-norm_dataset_2025,
-  author       = {Sonia Solfrini and collaborators},
+  author       = {Solfrini, Sonia and
+                  Dejouy, Mylène and
+                  Marques Oliveira, Aurélia and
+                  Beaulnes, Pierre-Olivier},
   title        = {{FreEM SemiD norm corpus}},
   month        = may,
   year         = 2025,
