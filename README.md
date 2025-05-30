@@ -5,6 +5,15 @@
 - a **normalisation model**, and 
 - the **normalised corpus** used to develop it — a dataset of Middle French texts, normalised according to semi-diplomatic guidelines.
 
+## Financeur
+
+Les recherches ont été menées dans le cadre du projet SETAF, financé par le Fonds national suisse (FNS). 
+Numéro de projet : [205056](https://data.snf.ch/grants/grant/205056).
+
+GitHub du projet SETAF : https://github.com/SETAFDH 
+
+Site du projet SETAF : https://www.unige.ch/setaf
+
 ## How to cite our work
 
 - Our paper: [coming soon]
