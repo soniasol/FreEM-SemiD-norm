@@ -1,5 +1,7 @@
 # FreEM SemiD norm 
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15551750.svg)](https://doi.org/10.5281/zenodo.15551750)
+
 **FreEM SemiD norm** (French Early Modern Semi-Diplomatic Normalisation) refers both to:
 
 - a **normalisation model** (or *normalizer*), and 
