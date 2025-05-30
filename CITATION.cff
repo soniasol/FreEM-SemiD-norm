@@ -1,7 +1,10 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite this repository as below."
-title: "FreEM SemiD norm (French Early Modern Semi-Diplomatic Normalisation) corpus"
-type: dataset
+message: "If you use this dataset and/or our scripts, please cite this repository as below."
+title: "FreEM SemiD norm (French Early Modern Semi-Diplomatic Normalisation) corpus and scripts"
+abstract: >-
+  This repository contains both a manually normalised corpus of Middle French texts
+  and the scripts used to train and evaluate FreEM SemiD norm, a normalisation model.
+type: software
 authors:
   - family-names: Solfrini
     given-names: Sonia
@@ -29,11 +32,12 @@ authors:
     orcid: 0000-0002-2601-668X
 repository-code: https://github.com/soniasol/FreEM-SemiD-norm
 url: https://github.com/soniasol/FreEM-SemiD-norm
+doi: 10.5281/zenodo.15551750
 keywords:
   - Middle French
   - Automatic normalisation
   - Digital humanities
   - Early Modern French
-license: CC-BY-4.0
+license: MIT
 version: "1.0"
 date-released: 2025-05-30
