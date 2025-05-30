@@ -202,18 +202,30 @@ def compute_metrics(norm_filename, spm_model, model_n_words, compute_acc = False
     # save the test.src
     write_file(test_norm, os.path.join(DIRECTORY,'data/test.%s.norm.trg'%model_n_words))
 
-    # compute the BLEU score
+     # compute the BLEU score
     bleu = BLEU()
-    bleu_score = bleu.corpus_score(test_norm,[test_trg])
-    print(bleu_score)
+    bleu_score = bleu.corpus_score(test_norm, [test_trg])
+    bleu_signature = bleu.get_signature()
 
     # compute the Translation Error Rate (TER)
     ter = TER()
-    ter_score = ter.corpus_score(test_norm,[test_trg])
+    ter_score = ter.corpus_score(test_norm, [test_trg])
+    ter_signature = ter.get_signature()
 
     # compute the Character n-gram F-score (CHRF)
     chrf = CHRF()
-    chrf_score = chrf.corpus_score(test_norm,[test_trg])
+    chrf_score = chrf.corpus_score(test_norm, [test_trg])
+    chrf_signature = chrf.get_signature()
+
+    # print results
+    print("BLEU signature:", bleu_signature)
+    print("BLEU score:", bleu_score)
+
+    print("TER signature:", ter_signature)
+    print("TER score:", ter_score)
+
+    print("CHRF signature:", chrf_signature)
+    print("CHRF score:", chrf_score)
 
     if compute_acc:
         # compute the accuracy of the alignment
