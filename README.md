@@ -14,7 +14,9 @@ This research was conducted as part of the SETAF project, funded by the Swiss Na
 
 ## How to cite our work
 
-- Our paper: Sonia Solfrini, Mylène Dejouy, Aurélia Marques Oliveira, Pierre-Olivier Beaulnes. « Normaliser le moyen français : du graphématique au semi-diplomatique », actes de CORIA-TALN-RJCRI-RECITAL 2025, juillet 2025, Marseille, France. [⟨hal-05137564⟩](https://hal.science/hal-05137564v1).
+- Our paper:
+
+Sonia Solfrini, Mylène Dejouy, Aurélia Marques Oliveira, Pierre-Olivier Beaulnes. « Normaliser le moyen français : du graphématique au semi-diplomatique », actes de CORIA-TALN-RJCRI-RECITAL 2025, juillet 2025, Marseille, France. [⟨hal-05137564⟩](https://hal.science/hal-05137564v1).
 
 - Our corpus:
 
